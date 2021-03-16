@@ -1,0 +1,27 @@
+{
+    "texts": {
+        "mappings": {
+            "properties": {
+                "body": {
+                    "type": "text"
+                }
+            }
+        }
+    },
+    "sentences": {
+        "mappings": {
+            "properties": {
+                "text_id": {
+                    "type": "keyword"
+                },
+                "body": {
+                    "type": "text"
+                },
+                "embedding": {
+                    "type": "dense_vector",
+                    "dims": 768
+                }
+            }
+        }
+    }
+}
